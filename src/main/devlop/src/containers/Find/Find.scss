@@ -1,0 +1,110 @@
+.container-fluid {
+  min-width: 1090px;
+  display: flex;
+  flex-direction: column;
+  padding-left:53px;
+  min-height: calc(100vh - 100px);
+  background-color: #1b1b1b;
+  section {
+    margin:10px 0;
+  }
+  .title {
+    width: 100%;
+  }
+  .title span {
+    font-size: 40px;
+    color: #00adff;
+  }
+  .form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .form .form-group {
+    width: 100%;
+    color: white;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  .form .form-group label:first-child {
+    display: block;
+    flex: 0 0 150px;
+    font-size: 15px;
+    min-width: 120px;
+  }
+  .form .form-group label:last-child {
+    display: block;
+    flex: 1 0 200px;
+    font-size: 12px;
+    color: #cccccc;
+    margin: 0 40px;
+  }
+  .form .form-group input {
+    height: 30px;
+    flex: 0 1 700px;
+    min-width: 200px;
+    font-size: 14px;
+    padding-left: 5px;
+    border-radius: 3px;
+    border: none;
+  }
+  .form .form-group select {
+    height: 30px;
+    line-height: 30px;
+    flex: 0 1 150px;
+    min-width: 200px;
+    font-size: 14px;
+    padding-left: 5px;
+  }
+  .form hr {
+    margin-top:20px;
+  }
+  .button {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .button .button-group {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .button .button-group:hover {
+    cursor: pointer;
+  }
+  .button .button-group .btn{
+    width: 125px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 17px;
+  }
+  .button .button-group .btn {
+    height: 40px;
+    width: 125px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 17px;
+    line-height: 40px;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .3s;
+  }
+  .button .button-group .u-search {
+    border: 1px solid #00a7ff;
+    background: #00a7ff;
+    color: white;
+  }
+  .button .button-group .u-search:hover {
+    background: transparent;
+    color: #00a7ff;
+  }
+  .button .button-group .u-back {
+    background: transparent;
+    color: #00a7ff;
+    border: 1px solid #00a7ff;
+  }
+  .button .button-group .u-back:hover {
+    background: #00a7ff;
+    color: white;
+  }
+}

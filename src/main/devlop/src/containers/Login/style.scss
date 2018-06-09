@@ -1,0 +1,71 @@
+/*
+* @Author: zjhch123
+* @Date:   2018-01-31 21:35:22
+* @Last Modified time: 2018-02-01 13:00:25
+*/
+.c-login {
+  background-color: #1b1b1b;
+  min-width: 1090px;
+  .g-main {
+    min-height: 500px;
+    // text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .g-left, .g-right {
+    height: 250px;
+  }
+  .g-left {
+    flex: 0 1 53%;
+    padding-left: 83px;
+    box-sizing: border-box;
+    .m-logo, .m-text {
+      display: inline-block;
+      vertical-align: top;
+    }
+    .m-text {
+      margin-left: 56px;
+      text-align: left;
+      .u-title {
+        font-size: 36px;
+        color: #0af;
+      }
+      .u-text {
+        font-size: 16px;
+        color: white;
+        line-height: 28px;
+      }
+    }
+  }
+  .g-right {
+    position: relative;
+    flex: 1;
+    padding-left: 158px;
+    text-align: left;
+    &:before {
+      width: 1px;
+      height: 350px;
+      background: #979797;
+      display: inline-block;
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .u-password-input {
+      margin-top: 14px;
+    }
+    .u-submit-btn {
+      margin-top: 31px;
+    }
+    .u-forget {
+      display: table;
+      color: #9c9c9c;
+      font-size: 12px;
+      margin-top: 8px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,121 @@
+.f-main-color {
+  color: #00aaff !important;
+}
+.c-about {
+  min-width: 900px;
+  display:flex;
+  flex-direction: column;
+}
+.c-about .m-logo {
+  background: url(../../resource/image/about.jpg);
+  background-size: 100% 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+.c-about .m-logo .u-logo {
+  width: 140px;
+  height: 140px;
+  margin-left: 50px;
+}
+.c-about .m-logo div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.c-about .m-logo div span:first-child {
+  z-index: 3;
+  font-size: 35px;
+  color: #00adff;
+  display: block;
+}
+.c-about .m-logo div span:last-child {
+  z-index: 3;
+  font-size: 18px;
+  color: #fff;
+  display: block;
+}
+.c-about .m-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(26,26,26);
+}
+.c-about .m-main section {
+  margin: 50px 0;
+  text-align: center;
+  position: relative;
+}
+.c-about .m-main section:after {
+  position: absolute;
+  width:150px;
+  height:1px;
+  content:"";
+  left:50%;
+  transform: translateX(-50%);
+  bottom:-30px;
+  background-color: white;
+}
+.c-about .m-main section .u-title {
+  color: white;
+  font-size: 30px;
+}
+.c-about .m-main .m-intro {
+  font-size: 25px;
+}
+.c-about .m-main .m-intro p {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+.c-about .m-main .m-intro p:nth-child(2), .c-about .m-main .m-intro p:nth-child(3) {
+  color: #c6c6c6;
+}
+.c-about .m-main .m-partner li {
+  display: inline-block;
+}
+.c-about .m-main .m-partner li img {
+  width: 150px;
+  height: 150px;
+}
+.c-about .m-main .m-partner li span a {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+.c-about .m-main .m-pic li {
+  display: inline-block;
+  height:300px;
+  width:110px;
+  margin: 0 10px;
+  overflow: hidden;
+}
+.c-about .m-main .m-pic .u-member {
+  height: 270px;
+  width: auto;
+  margin: auto;
+  display: block;
+}
+.c-about .m-main .m-pic span {
+  display: block;
+  color: white;
+}
+.c-about .m-main .m-connect {
+  background-color: black;
+  width: 100%;
+}
+.c-about .m-main .m-connect:after {
+  display:none;
+}
+.c-about .m-main .m-connect .u-title {
+  padding-top: 40px;
+}
+.c-about .m-main .m-connect .u-email {
+  margin:30px 0 40px 0;
+}
+.c-about .m-main .m-connect .u-email a {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+}

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="height:100%;width:100%;stroke: #fff">
+				<style> line { stroke-width: 3%} circle { fill: #fff; stroke:#fff}</style>
+				<line x1="40%" y1="50%" x2="40%" y2="50%" id="line1">
+					<animate attributeName="x2" from="40%" to="15%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="y2" from="50%" to="25%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</line>
+				<line x1="40%" y1="50%" x2="40%" y2="50%">
+					<animate attributeName="x2" from="40%" to="50%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="y2" from="50%" to="15%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</line>
+				<line x1="40%" y1="50%" x2="40%" y2="50%">
+					<animate attributeName="x2" from="40%" to="10%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="y2" from="50%" to="80%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</line>
+				<line x1="40%" y1="50%" x2="40%" y2="50%">
+					<animate attributeName="x2" from="40%" to="52%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="y2" from="50%" to="73%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</line>
+				<line x1="40%" y1="50%" x2="40%" y2="50%">
+					<animate attributeName="x2" from="40%" to="90%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="y2" from="50%" to="55%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</line>
+				<line x1="15%" y1="25%" x2="15%" y2="25%">
+					<animate attributeName="x2" from="15%" to="50%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="y2" from="25%" to="15%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</line>
+				<line x1="50%" y1="15%" x2="50%" y2="15%">
+					<animate attributeName="x2" from="50%" to="90%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="y2" from="15%" to="55%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</line>
+				<line x1="90%" y1="55%" x2="90%" y2="55%">
+					<animate attributeName="x2" from="90%" to="52%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="y2" from="55%" to="73%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</line>
+				<line x1="52%" y1="73%" x2="52%" y2="73%">
+					<animate attributeName="x2" from="52%" to="10%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="y2" from="73%" to="80%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</line>
+				<line x1="10%" y1="80%" x2="10%" y2="80%">
+					<animate attributeName="x2" from="10%" to="15%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="y2" from="80%" to="25%" begin="0.8s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</line>
+				<circle id="center-circle" cx="40%" cy="50%" r="7%" fill="white"/>
+				<circle id="left-top-circle" cx="40%" cy="50%" r="5%" fill="white">
+					<animate attributeName="cx" from="40%" to="15%" begin="0s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="cy" from="50%" to="25%" begin="0s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</circle>
+				<circle id="right-top-circle" cx="40%" cy="50%" r="5%" fill="white">
+					<animate attributeName="cx" from="40%" to="50%" begin="0s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="cy" from="50%" to="15%" begin="0s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</circle>
+				<circle id="left-bottom-circle" cx="40%" cy="50%" r="5%" fill="white">
+					<animate attributeName="cx" from="40%" to="10%" begin="0s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="cy" from="50%" to="80%" begin="0s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</circle>
+				<circle id="center-bottom-circle" cx="40%" cy="50%" r="5%" fill="white">
+					<animate attributeName="cx" from="40%" to="52%" begin="0s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="cy" from="50%" to="73%" begin="0s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</circle>
+				<circle id="right-bottom-circle" cx="40%" cy="50%" r="5%" fill="white">
+					<animate attributeName="cx" from="40%" to="90%" begin="0s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+					<animate attributeName="cy" from="50%" to="55%" begin="0s" dur="0.6s" repeatCount="1" calcMode="linear" fill="freeze"/>
+				</circle>
+
+			</svg>

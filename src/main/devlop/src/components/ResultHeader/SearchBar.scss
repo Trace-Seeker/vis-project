@@ -1,0 +1,70 @@
+.c-search-bar {
+  height: 102px;
+  display: flex;
+  flex-direction: column;
+  .m-row1 {
+    flex: 1 0 56px;
+    height: 56px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .m-brand {
+      flex: 0 0 auto;
+    }
+    .m-form {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      padding-left: 60px;
+      .u-input {
+        width: 420px;
+        height: 30px;
+        border: 1px solid #3a3a3a;
+        padding-left: 6px;
+        font-size: 14px;
+        background: transparent;
+        color: white;
+        border-radius: 6px;
+      }
+      .m-btn {
+        cursor: pointer;
+        margin-left: 9px;
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        width: 94px;
+        text-align: center;
+        background-color: #323232;
+        text-decoration: none;
+        border-radius: 4px;
+        color: #b6b6b6;
+        font-size: 14px;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+    .u-tip {
+      color: white;
+      font-size: 14px;
+      align-self: flex-end;
+      line-height: 34px;
+    }
+  }
+  .m-row2 {
+    padding: 0 40px;
+    .u-tab {
+      display: inline-block;
+      height: 100%;
+      width: 120px;
+      color: gray;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+  .active {
+    color: white !important;
+  }
+}

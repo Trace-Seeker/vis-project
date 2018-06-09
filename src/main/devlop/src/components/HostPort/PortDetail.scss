@@ -1,0 +1,37 @@
+.c-port-detail {
+  padding: 20px 5px 20px 5px;
+  display: flex;
+}
+.m-type {
+  flex: 0 0 120px;
+}
+.u-type {
+  display: block;
+  width: 80px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.u-type:nth-child(1) {
+  background-color: #505050;
+}
+.u-type:nth-child(2) {
+  background-color: #666666;
+}
+.u-type:nth-child(3) {
+  background-color: #6699cc;
+}
+.u-data {
+  flex: 1;
+  color: #989898;
+  width: 300px;
+  word-break: break-all;
+  font-size: 14px;
+  line-height: 25px;
+  font-family: Inconsolata;
+}

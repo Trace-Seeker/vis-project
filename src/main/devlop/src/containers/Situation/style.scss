@@ -1,0 +1,52 @@
+.f-hide-header {
+  .m-fix-header {
+    transform: translateY(-100%);
+  }
+}
+.c-situation {
+  min-width: 1090px;
+  min-height: 600px;
+  background: rgb(27,27,27);
+  * {
+    box-sizing: border-box;
+  }
+}
+.m-fix-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: black;
+  transition: transform .6s;
+}
+.g-center, .g-left, .g-right {
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+.g-left {
+  .m-block {
+    height: 33.3%;
+  }
+}
+.g-center {
+  width: 50%;
+  .m-map {
+    height: 60%;
+  }
+  .m-follow, .m-trend {
+    height: 20%;
+  }
+}
+.g-right {
+  .m-block {
+    height: 25%;
+  }
+}
+.g-left, .g-right {
+  width: 25%;
+}
+.f-scroll {
+  overflow: auto;
+}

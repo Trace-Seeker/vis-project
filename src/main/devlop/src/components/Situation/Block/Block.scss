@@ -1,0 +1,20 @@
+.c-column {
+  display: inline-block;
+}
+.c-block {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.u-title {
+  flex: 0 0 auto;
+  font-size: 16px;
+  line-height: 1.41;
+  text-align: center;
+  color: white;
+}
+.c-container {
+  flex: 1 1 100%;
+}

@@ -1,0 +1,43 @@
+.c-search {
+  background-color: #1b1b1b;
+}
+.cSearchTip {
+  height: 500px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  box-sizing: border-box;
+  padding-top: 210px;
+}
+.g-aside {
+  position: absolute;
+  padding-left: 40px;
+  width: 300px;
+  overflow: hidden;
+}
+.g-main {
+  padding-left: 390px;
+  min-height: 400px;
+  .m-search-tip {
+    font-size: 14px;
+    color: #c1bdbf;
+    margin: 10px 0;
+  }
+}
+.g-bottom {
+  text-align: center;
+  margin: 8px 0 18px;
+  .m-button {
+    line-height: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0 20px;
+    border-radius: 5px;
+    color: #000;
+    text-decoration: none;
+    width: 100px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+  }
+}

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'sans';
+  src: url('./resource/font/webfont.eot'); /* IE9*/
+  src: url('./resource/font/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./resource/font/webfont.woff') format('woff'), /* chrome、firefox */
+  url('./resource/font/webfont.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face{
+  font-family: Inconsolata;
+  src: url("./resource/font/Inconsolata.woff");
+}
+body, dl, dd, ul, ol, h1, h2, h3, h4, h5, h6, p, form, input, textarea, button, th, td { margin: 0; padding: 0; }
+img, iframe { border: 0 none; }
+ol, ul { list-style: none outside none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: bold; }
+em, strong { font-style: normal; font-weight: bold; }
+html { font-family: 'sans', PingFangSC-Light,helvetica,"Helvetica Neue", STHeiTi, "Microsoft YaHei", sans-serif !important; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; font-size: 366.211%; }
+body, textarea, select, input { color: #000; }
+a, button { cursor: pointer; text-decoration: none; }
+body { position: relative; }
+img[src=""] { opacity: 0; filter: alpha(opacity=0); }
+* { -webkit-tap-highlight-color: transparent; }
+/*input 去掉ie10以上版本的X*/
+::-ms-clear, ::-ms-reveal { display: none; }
+/*input 去掉chrome选中input时的外边框*/
+input { outline: none; border: 0; }
+html { font-size: 14px; }
+.f-cb:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body, html {min-height: 600px;min-width: 1090px;background-color: black;}
+:global(.BMap_cpyCtrl) {
+  display: none;
+}

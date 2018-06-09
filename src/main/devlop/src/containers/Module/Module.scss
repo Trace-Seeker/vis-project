@@ -1,0 +1,100 @@
+.c-module {
+    background-color: #1b1b1b;
+}
+.container {
+    min-width: 1090px;
+    display: flex;
+    flex-direction: column;
+    padding-left:53px;
+    min-height: calc(100vh - 100px);
+}
+.section {
+    margin:30px 0;
+}
+.title {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.title span {
+    font-size: 30px;
+    color: #00adff;
+    margin:0 auto;
+    text-align:left;
+}
+.combination {
+    float: left;
+    word-wrap:break-word;
+    overflow:hidden;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.combination hr {
+    margin: 10px 0 20px 0;
+    background-color: #222222;
+    height: 1px;
+    border: none;
+    width: 200px;
+}
+.combination .block{
+    display: inline-block;
+    color: white;
+}
+.combination span:first-child {
+    font-size: 16px;
+    color: grey;
+}
+.combination .block span{
+    float:left;
+    width: 55px;
+    height: 23px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+.combination .port {
+    display: block;
+    margin-top: 15px;
+}
+.combination .port a {
+    color: #00aaff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.combination .block span:first-child {
+    background-color: #3d3d3d;
+}
+.combination .block span:last-child {
+    background-color: #00a4ff;
+}
+.table {
+    padding-right: 53px;
+    color: #b0b3ba;
+    border-spacing: 0;
+    width: 100%;
+}
+.table tbody tr:hover {
+    background: #3a3a3a;
+    cursor: pointer;
+}
+.table td, .table th {
+    border-top: 1px solid #373e53;
+    text-align: left;
+    padding: 8px;
+}
+.table tr:last-child td {
+    border-bottom: 1px solid #373e53;
+}
+.table th {
+    font-size: 13px;
+    font-weight: bolder;
+}
+.table td {
+    font-size: 11px;
+}
+.table td a {
+    color: #00a7ff;
+    text-decoration: none;
+}

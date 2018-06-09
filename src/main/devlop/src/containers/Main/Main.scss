@@ -1,0 +1,128 @@
+.c-main {
+  background-image: url("../../resource/image/icsmap.png");
+  background-color: black;
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  .g-main {
+    height: calc(100vh - 96px);
+    min-height: 504px;
+    text-align: center;
+    &:before {
+      height: 100%;
+      width: 1px;
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .m-main {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .u-logo {
+      width: 170px;
+      height: 170px;
+      margin: auto;
+    }
+    .u-title {
+      color: rgb(0, 170, 255);
+      display: block;
+      font-size: 32px;
+    }
+    .m-input {
+      margin: 20px 0;
+      .u-input {
+        font-size: 16px;
+        width: 706px;
+        height: 37px;
+        outline: none;
+        padding: 0 10px;
+        background-color: transparent;
+        border: 1px solid #00affd;
+        color: white;
+        box-sizing: border-box;
+        &:focus {
+          border: 2px solid rgb(153, 204, 255);
+        }
+      }
+    }
+    .m-btn-group {
+      .u-btn {
+        margin: 0 16px;
+      }
+    }
+    .m-tip {
+      margin: 10px 0;
+      color: #fff;
+      font-size: 12px;
+    }
+    .u-search {
+      display: inline-block;
+      text-decoration: none;
+      width: 125px;
+      font-size: 16px;
+      border: 0;
+      border-radius: 3px;
+      line-height: 40px;
+      color: white;
+      outline: none;
+      background: #1a1a1a;
+    }
+    .m-float {
+      width: 500px;
+      height: 310px;
+      position: absolute;
+      background-color: rgba(0,0,0,.95);
+      opacity: 0;
+      box-sizing: border-box;
+      pointer-events: none;
+      top: 50%;
+      left: 50%;
+      margin-left: -250px;
+      margin-top: -155px;
+      transform: translateY(30px);
+      transition: all .6s;
+      &.f-show {
+        opacity: 1;
+        transform: translateY(0px);
+        pointer-events: auto;
+      }
+      .u-tip-title {
+        font-size: 30px;
+        color: #00aaff;
+        margin: 8px;
+      }
+      .u-tip {
+        .u-tip-sub-title {
+          font-size: 20px;
+          color: #00aaff;
+        }
+        .u-tip-container {
+          list-style: none;
+          width: 100%;
+          padding: 12px;
+          box-sizing: border-box;
+          li {
+            display: inline-block;
+            width: 50%;
+            color: white;
+            text-align: left;
+            maigin: 1px 0;
+            .key {
+              color: #37a366;
+              font-family: Consolas;
+              background-color: #3a3a3a;
+              text-align: center;
+              border-radius: 5px;
+              display: inline-block;
+              height: 21px;
+              line-height: 21px;
+              border: 0;
+              margin: 0 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

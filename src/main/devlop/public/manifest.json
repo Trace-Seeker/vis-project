@@ -1,0 +1,15 @@
+{
+  "short_name": "鉴势",
+  "name": "鉴势 - 工控设备在线搜索与可视化平台",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

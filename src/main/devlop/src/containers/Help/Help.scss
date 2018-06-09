@@ -1,0 +1,107 @@
+.c-help {
+  min-width: 900px;
+  background-color: #1a1a1a;
+  line-height: 1.41;
+  .f-key, .f-value {
+    font-family: Consolas;
+  }
+  .f-key {
+    color: #37a366;
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    line-height: 28px;
+    padding:4px 3px;
+  }
+  .f-value {
+    color: #00aaff;
+  }
+  .f-main-color {
+    color: #00aaff !important;
+  }
+  h2 {
+    margin: .83em 0;
+  }
+  h3, p {
+    margin: 1em 0;
+  }
+  ul {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    li {
+      display: list-item;
+      text-align: -webkit-match-parent;
+    }
+  }
+  .m-logo {
+    background: url(../../resource/image/help.jpg);
+    background-size: 100% 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    .u-logo {
+      width: 140px;
+      height: 140px;
+      margin-left: 50px;
+    }
+    .u-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      display: block;
+      .title, .subtitle {
+        margin: 0;
+      }
+      .title {
+        font-size: 35px;
+        color: #00adff;
+      }
+      .subtitle {
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+  }
+  .m-main {
+    .m-section {
+      margin: 0 80px;
+      border-bottom: 1px solid #2a2a2a;
+      width: 70%;
+      min-width: 630px;
+      color: white;
+      p {
+        font-size:15px;
+      }
+      h2 {
+        font-size: 30px;
+      }
+      h3 {
+        font-size: 20px;
+      }
+      h2, h3 {
+        font-weight: 500;
+      }
+      ul li {
+        font-size: 14px;
+        margin-top:3px;
+      }
+      table {
+        width: 400px;
+        thead tr {
+          font-size: 15px;
+          text-align: center;
+        }
+        tbody tr {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+.u-footer {
+  background-color: rgb(26, 26, 26);
+}

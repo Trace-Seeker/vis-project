@@ -1,0 +1,25 @@
+/*
+* @Author: zjhch123
+* @Date:   2018-01-31 21:53:22
+* @Last Modified time: 2018-01-31 23:18:32
+*/
+.c-input-group {
+  text-align: left;
+  .u-label {
+    font-size: 16px;
+    color: white;
+    line-height: 25px;
+  }
+  .u-input {
+    margin-top: 9px;
+    input {
+      width: 353px;
+      line-height: 36px;
+      height: 36px;
+      border: 1px solid #979797;
+      border-radius: 8px;
+      font-size: 18px;
+      padding-left: 8px;
+    }
+  }
+}

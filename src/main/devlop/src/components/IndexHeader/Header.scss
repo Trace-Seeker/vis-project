@@ -1,0 +1,31 @@
+.c-header {
+  height: 48px;
+  background-color: black;
+  padding: 0 40px;
+  overflow: hidden;
+  .g-left {
+    float: left;
+  }
+  .g-right {
+    float: right;
+    font-size: 0;
+    .u-link-item:hover {
+      background-color: #3a3a3a;
+    }
+  }
+  .u-link-item {
+    line-height: 48px;
+    height: 48px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 18px;
+  }
+  .m-logo {
+    font-size: 20px;
+  }
+  .active {
+    background-color: #3a3a3a;
+  }
+}

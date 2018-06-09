@@ -1,0 +1,29 @@
+.c-item {
+  display: flex;
+  justify-content: space-between;
+  line-height: 25px;
+  position: relative;
+  .g-left {
+    font-size: 13px;
+    color: #00aaff;
+    font-family: sans;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+  }
+  .g-right {
+    position: relative;
+    font-size: 13px;
+    color: #C1BDBF;
+    text-align: right;
+    z-index: 2;
+  }
+  .g-bg {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.3);
+  }
+}

@@ -1,0 +1,33 @@
+.c-host {
+  background-color: #1b1b1b;
+}
+.g-container {
+  width: 100%;
+  display: flex;
+  min-height: calc(100vh - 450px);
+  .g-left, .g-right {
+    box-sizing: border-box;
+    padding: 0 20px 20px 20px;
+    flex: 1 0 50%;
+    p {
+      margin: 21px 0;
+    }
+  }
+  .g-box {
+    margin-bottom: 20px;
+  }
+  .u-ip, .u-title {
+    font-size: 24px;
+    color: white;
+  }
+  .u-tags {
+    background-color: rgb(255, 40, 0);
+    border-radius: 5px;
+    color: white;
+    padding: 0 20px;
+    margin-left: 15px;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 20px;
+  }
+}

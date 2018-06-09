@@ -1,0 +1,24 @@
+.c-follow {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+}
+.g-left, .g-right {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  .m-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .u-title {
+    flex: 0 0 auto;
+    color: white;
+    text-align: center;
+  }
+  .c-charts {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+}

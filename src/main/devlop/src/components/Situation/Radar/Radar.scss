@@ -1,0 +1,99 @@
+.c-radar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &.effective {
+    animation: effective 1s;
+    animation-iteration-count: infinite;
+  }
+}
+.m-radar-container {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  .u-radar {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(32, 255, 77);
+    background: -webkit-radial-gradient(center, rgba(32, 255, 77, 0.3) 0%, rgba(32, 255, 77, 0) 75%), 
+                -webkit-repeating-radial-gradient(rgba(32, 255, 77, 0) 6%, rgba(32, 255, 77, 0) 21%, #20ff4d 21.6%, rgba(32, 255, 77, 0) 23%);
+    &:before, &:after {
+      position: absolute;
+      content: '';
+      background: rgb(32, 255, 77);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &:before {
+      width: 100%;
+      height: 1px;
+    }
+    &:after {
+      height: 100%;
+      width: 1px;
+    }
+  }
+  .u-radar, .u-point {
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .u-point {
+    border: 1px solid rgb(32, 255, 77);
+    width: 1px;
+    height: 1px;
+    animation: fade 1.1s ease-out;
+    animation-iteration-count: infinite;
+  }
+  .u-bug {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 8;
+    background-color: red;
+    left: 50%;
+    top: 30px;
+    animation: bug-fade 2s linear infinite;
+  }
+}
+@keyframes fade {
+  0% {
+    width: 1px;
+    height: 1px;
+    background-color: rgba(32,255,77,.4);
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32,255,77,0);
+    border: 1px solid rgba(32,255,77,0);
+  }
+}
+@keyframes bug-fade {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes effective {
+  0%, 100% {
+    background-color: rgba(255, 0, 0, 0)
+  }
+  50% {
+    background-color: rgba(255, 0, 0, .4) 
+  }
+}
+.u-tip {
+  color: white;
+  margin-left: 18px;
+  width: 120px;
+  text-align: center;
+}

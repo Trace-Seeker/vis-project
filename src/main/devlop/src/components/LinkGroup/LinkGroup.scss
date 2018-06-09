@@ -1,0 +1,28 @@
+.m-link-group {
+  display: inline-block;
+  vertical-align: top;
+  .u-title {
+    color: white;
+    margin: 0;
+    padding: 5px 0;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  .u-item a {
+    color: #7a7a7a;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 14px;
+    &:hover {
+      color: white;
+    }
+  }
+  .u-item span {
+    color: #7a7a7a;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 14px;
+  }
+}

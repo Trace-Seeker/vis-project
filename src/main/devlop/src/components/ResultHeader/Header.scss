@@ -1,0 +1,33 @@
+.c-header {
+  height: 48px;
+  background-color: black;
+  padding: 0 40px;
+  overflow: hidden;
+  .g-left {
+    float: left;
+  }
+  .g-right {
+    float: right;
+    font-size: 0;
+  }
+  .u-link-item {
+    line-height: 48px;
+    height: 48px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 18px;
+    &:hover {
+      background-color: #3a3a3a;
+    }
+  }
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+.active {
+  background-color: #2a2a2a;  
+}

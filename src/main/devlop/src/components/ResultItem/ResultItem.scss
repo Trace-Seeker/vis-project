@@ -1,0 +1,60 @@
+.c-result-item {
+  min-width: 560px;
+  max-width: 960px;
+  margin-bottom: 16px;
+  .m-content {
+    &:after {
+      clear: both;
+      display: table;
+      content: "";
+    }
+    margin-bottom: 20px;
+  }
+  p {
+    margin: 0;
+  }
+  .u-ip {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    width: 210px;
+  }
+  .m-left {
+    float: left;
+    width: 250px;
+    overflow: hidden;
+    .u-tag {
+      margin: 5px 0;
+      span+span {
+        margin-left: 5px;
+      }
+    }
+    .u-country, .u-org {
+      color: rgb(193, 189, 191);
+      font-size: 13px;
+      font-family: sans;
+    }
+  }
+  .m-right {
+    float: left;
+    margin-left: 50px;
+    width: 400px;
+    max-height: 500px;
+    overflow: hidden;
+    .u-detail {
+      overflow: hidden;
+      color: #f7b224;
+      font-family: Inconsolata;
+      line-height: 25px;
+      word-wrap: break-word;
+      font-size: 13px;
+    }
+  }
+}
+:global(.hlt) {
+  color: red;
+  font-style: normal;
+}
